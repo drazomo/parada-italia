@@ -6,12 +6,16 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    fontFamily: {
+      display: ['var(--font-header)'],
+      body: ['var(--font-body)'],
+    },
     extend: {
-      colors: {},
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        italiaYellow: '#fed304',
+        italiaBlack: '#231f20',
+        italiaWhite: '#fff',
+        italiaGray: '#231f20',
       },
     },
   },
